@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Minggu3"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".FrameLayout"
             android:exported="false" />
         <activity
@@ -24,10 +27,10 @@
             android:name=".LinearLayout"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".TableLayout"
             android:exported="false" />
         <activity
-            android:name=".TableLayout"
+            android:name=".MaterialDesign"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
